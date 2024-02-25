@@ -5,7 +5,8 @@
   "src/test"]
 
  :dependencies
- []
+ [[reagent "1.1.1"]
+  [re-frame "1.4.2"]]
 
  :dev-http
  {8020 "public"}
@@ -18,4 +19,4 @@
 
    :modules
    {:main ; becomes public/js/main.js
-    {:init-fn starter.browser/init}}}}}
+    {:init-fn genegraph.browser/init}}}}}
